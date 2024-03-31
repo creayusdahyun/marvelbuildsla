@@ -9,7 +9,7 @@ include 'navigation.php';
                     <img class="w-100" src="img/Carousel-3.png" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Pre-construction</h4>
+                            <h4 class="text-white text-uppercase mb-md-3"></h4>
                             <h3 class="display-3 text-white mb-md-4">Work Quality is our Priority</h3>
                             <a href="contact" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
                         </div>
@@ -19,7 +19,7 @@ include 'navigation.php';
                     <img class="w-100" src="img/Carousel-4.png" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Pre-construction</h4>
+                            <h4 class="text-white text-uppercase mb-md-3"></h4>
                             <h3 class="display-3 text-white mb-md-4">Waterproofing Solutions That Stand The Test Of Time</h3>
                             <a href="contact" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
                         </div>
@@ -29,7 +29,7 @@ include 'navigation.php';
                     <img class="w-100" src="img/Carousel-5.png" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Pre-construction</h4>
+                            <h4 class="text-white text-uppercase mb-md-3"></h4>
                             <h3 class="display-3 text-white mb-md-4">Quality Waterproofing To Keep Your Space Safe And Sound</h3>
                             <a href="contact" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
                         </div>
@@ -144,7 +144,7 @@ include 'navigation.php';
                                 <li>read and interpret bid instructions, <br> plans, drawings, specifications and <br>other related Construction documents</li>
                                 <li>Detailed Cost estimates of project. </li>
                             </ul>
-                            <div  style="padding-bottom: 3rem;"></div>
+                            <div  style="padding-bottom: 6rem;"></div>
                         </p>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ include 'navigation.php';
                                 <li>Remodeling and Renovation </li>
                                 <li>Retrofitting (SB721 and SB 326) </li>
                             </ul>
-                            <div  style="padding-bottom: 1.5rem;"></div>
+                            <div  style="padding-bottom: 5rem;"></div>
                         </p>
                     </div>
                 </div>
@@ -181,9 +181,11 @@ include 'navigation.php';
                         <p class="m-0 index-p">
                             <b>Facilty Solutions and specialty work </b>
                                 <ul class="index-p-card">
+                                    <li>cost effective work with variety of services such as: </li>
                                     <li>exterior and interior renovation </li>
                                     <li>miscellaneous concrete work</li>
                                     <li>insulation</li>
+                                    <li>drywall and patching</li>
                                     <li>door installation </li>
                                     <li>plumbing work </li>
                                     <li>electrical work </li>
@@ -211,10 +213,11 @@ include 'navigation.php';
                                 <li>Millwork Demolition </li>
                                 <li>office partitions Demolition</li>
                                 <li>flooring Demolition</li>
-                                <li>clean up service (collect, remove, and dispose Construction debris) </li>
+                                <li>Our clean up service: </li>
+                                <li>collect, remove, and dispose Construction debris </li>
                                 <li>sweep and picking up of dust, and other Construction materials. </li>
                             </ul>
-                            <div  style="padding-bottom: 4.5rem;">
+                            <div  style="padding-bottom: 7.5rem;">
 
                             </div>
                         </p>
@@ -235,6 +238,7 @@ include 'navigation.php';
                         <ul class="index-p-card">
                                 <li >Solar Panel </li>
                                 <li>Cool Roof </li>
+                                <li>Please see <br> https://ladbs.org/services/<br>green-building-sustainability</li>
                             </ul>
                             <div style="padding-bottom: 12rem;">
 
@@ -254,7 +258,7 @@ include 'navigation.php';
                         <p class="m-0 p-4"> <b> Safety </b>
                         <ul class="index-p-card">
                                 <li > For further details you may see to this website:
-                                      Or please see further.
+                                <br>Or please see further.
                                       http://www.dir.ca.gov  </li>
                             </ul>
                             <div style="padding-bottom: 12rem;">

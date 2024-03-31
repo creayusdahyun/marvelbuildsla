@@ -37,6 +37,7 @@ include 'navigation.php';
                             </div>
                             <p class="m-0 index-p"><b>Pre-construction</b>
                             <ul class="index-p-card">                               
+                                <li>Our company offers pre-construction services such as</li>                               
                                 <li>Create initial building schematic design</li>
                                 <li>Value engineering </li>
                                 <li>Permitting </li>
@@ -60,7 +61,7 @@ include 'navigation.php';
                                 <li>read and interpret bid instructions, plans, drawings, specifications and other related Construction documents</li>
                                 <li>Detailed Cost estimates of project. </li>
                             </ul>
-                            <div style="padding-bottom: 3rem;"></div>
+                            <div  style="padding-bottom: 6rem;"></div>
                             </p>
                         </div>
                     </div>
@@ -78,7 +79,7 @@ include 'navigation.php';
                                 <li>Remodeling and Renovation </li>
                                 <li>Retrofitting (SB721 and SB 326) </li>
                             </ul>
-                            <div class="index-m-card"  ></div>  
+                            <div  style="padding-bottom: 3.5rem;"></div> 
                             </p>
                         </div>
                     </div>
@@ -91,9 +92,11 @@ include 'navigation.php';
                             </div>
                             <p class="m-0 p-4"><b>Facilty Solutions and specialty work</b>
                             <ul class="index-p-card">
+                                    <li>cost effective work with variety of services such as: </li>
                                     <li>exterior and interior renovation </li>
                                     <li>miscellaneous concrete work</li>
                                     <li>insulation</li>
+                                    <li>drywall and patching</li>
                                     <li>door installation </li>
                                     <li>plumbing work </li>
                                     <li>electrical work </li>
@@ -118,10 +121,11 @@ include 'navigation.php';
                                 <li>Millwork Demolition </li>
                                 <li>office partitions Demolition</li>
                                 <li>flooring Demolition</li>
-                                <li>clean up service (collect, remove, and dispose Construction debris) </li>
+                                <li>Our clean up service: </li>
+                                <li>collect, remove, and dispose Construction debris </li>
                                 <li>sweep and picking up of dust, and other Construction materials. </li>
                             </ul>
-                            <div  style="padding-bottom: 4.5rem;">
+                            <div  style="padding-bottom: 7.5rem;">
 
                             </div>
                             </p>
@@ -138,6 +142,7 @@ include 'navigation.php';
                             <ul class="index-p-card">
                                 <li >Solar Panel </li>
                                 <li>Cool Roof </li>
+                                <li>Please see <br> https://ladbs.org/services/<br>green-building-sustainability</li>
                             </ul>
                             <div style="padding-bottom: 12rem;">
 
