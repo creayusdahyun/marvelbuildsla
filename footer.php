@@ -3,8 +3,7 @@
         <div class="row pt-5">
             <div class="col-lg-4 col-md-6 mb-5">
                 <a href=""><h1 class="text-secondary mb-3"><img src="img/footer-logo-1.png" alt=""></h1></a>
-                <p>Construction General company types of operations : ADU construction , room additions , custom homes , kitchen & bathroom remodels, swimming pool & spa construction
-</p>
+                
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
                 <h4 class="text-white mb-4">Get In Touch</h4>
