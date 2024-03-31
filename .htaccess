@@ -1,8 +1,9 @@
 RewriteEngine On
-RewriteBase /this_sites_subdirectory/
+RewriteBase /
 RewriteRule ^/?$ /1 [L]
 
 Options -MultiViews                
 
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php
