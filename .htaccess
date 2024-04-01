@@ -1,17 +1,16 @@
-RewriteEngine on 
-RewriteCond $1 !^(index\.php|resources|robots\.txt)
+<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteBase    /
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .* index.php/$1 [PT,L]
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ $1.php
+RewriteRule ^ index.php [L]
 
-
-#Force WWW
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^marvelbuildsla.com [NC]
-RewriteRule ^(.*)$ http://www.marvelbuildsla.com/$1 [L,R=301,NC]
-
-#Force WWW
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^marvelbuildsla.com [NC]
-RewriteRule ^(.*)$ http://www.marvelbuildsla.com/$1 [L,R=301,NC]
+</IfModule>
 
