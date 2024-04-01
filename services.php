@@ -11,7 +11,7 @@ include 'navigation.php';
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="btn text-white" href="">Home</a>
+                        <a class="btn text-white" href="index.php">Home</a>
                         <i class="fas fa-angle-right text-white"></i>
                         <a class="btn text-white disabled" href="">Services</a>
                     </div>
@@ -32,8 +32,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/ConceptualEstimate.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 index-p"><b>Pre-construction</b>
                             <ul class="index-p-card">                               
@@ -53,8 +53,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/Thumbnail-3.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0;">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 index-p"><b>Estimate and Architecture Assistance</b>
                             <ul class="index-p-card">
@@ -69,8 +69,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/rcc.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0;">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 p-4"><b>Residential and Commercial Construction</b>
                             <ul class="index-p-card">
@@ -87,8 +87,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/facility.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0;">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 p-4"><b>Facilty Solutions and specialty work</b>
                             <ul class="index-p-card">
@@ -113,8 +113,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/dcu.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0;">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 p-4"><b>Demolition and clean up</b>
                             <ul  class="index-p-card">
@@ -135,8 +135,8 @@ include 'navigation.php';
                         <div class="bg-light mb-4">
                             <div class="position-relative">
                                 <img class="img-fluid w-100" src="img/gb.png" alt="">
-                                <a href="" class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0;">
-                                </a>
+                                <div class="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4" style="top: 0; left: 0; ">
+                                </div>
                             </div>
                             <p class="m-0 p-4"><b>Green Building</b>
                             <ul class="index-p-card">
