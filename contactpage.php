@@ -12,7 +12,7 @@ include 'navigation.php';
                 </div>
                 <div class="col-md-6 text-center text-md-right">
                     <div class="d-inline-flex align-items-center">
-                        <a class="btn text-white" href="">Home</a>
+                        <a class="btn text-white" href="index.php">Home</a>
                         <i class="fas fa-angle-right text-white"></i>
                         <a class="btn text-white disabled" href="">Contact Us</a>
                     </div>
@@ -58,12 +58,12 @@ include 'navigation.php';
                 <div class="col-12">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" >
+                            <div class="form-result-message"></div>
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -93,6 +93,28 @@ include 'navigation.php';
     <!-- Contact End -->
 
 
+
     <?php 
 include 'footer.php';
 ?>
+
+<script>
+	//table
+$(document).ready(function(){
+     $("#contactForm").submit(function(e){
+        e.preventDefault();
+        var name = $("#name").val();
+			var email = $("#email").val();
+            var subject = $("#subject").val();
+			var message = $("#message").val();
+            $("#success").load("mail/contact.php", {
+				name: name,
+				email: email,
+                subject: subject,
+                message: message
+			});   
+    });
+    });
+</script>
+
+

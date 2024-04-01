@@ -58,7 +58,7 @@
                             </div>
                         </div> -->
                         <a href="about" class="nav-item nav-link">About</a>
-                        <a href="contact" class="nav-item nav-link">Contact</a>
+                        <a href="contactpage" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
